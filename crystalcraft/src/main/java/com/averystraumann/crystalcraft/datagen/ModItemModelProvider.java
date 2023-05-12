@@ -8,6 +8,7 @@ import net.minecraft.world.item.Item;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItemModelProvider extends ItemModelProvider {
@@ -42,6 +43,31 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WHITE_OPAL_CHESTPLATE);
         simpleItem(ModItems.WHITE_OPAL_LEGGINGS);
         simpleItem(ModItems.WHITE_OPAL_BOOTS);
+        simpleItem(ModItems.RUBY_SWORD);
+        simpleItem(ModItems.RUBY_PICKAXE);
+        simpleItem(ModItems.RUBY_AXE);
+        simpleItem(ModItems.RUBY_SHOVEL);
+        simpleItem(ModItems.RUBY_HOE);
+        simpleItem(ModItems.SAPPHIRE_SWORD);
+        simpleItem(ModItems.SAPPHIRE_PICKAXE);
+        simpleItem(ModItems.SAPPHIRE_AXE);
+        simpleItem(ModItems.SAPPHIRE_SHOVEL);
+        simpleItem(ModItems.SAPPHIRE_HOE);
+        simpleItem(ModItems.AMETHYST_SWORD);
+        simpleItem(ModItems.AMETHYST_PICKAXE);
+        simpleItem(ModItems.AMETHYST_AXE);
+        simpleItem(ModItems.AMETHYST_SHOVEL);
+        simpleItem(ModItems.AMETHYST_HOE);
+        simpleItem(ModItems.CITRINE_SWORD);
+        simpleItem(ModItems.CITRINE_PICKAXE);
+        simpleItem(ModItems.CITRINE_AXE);
+        simpleItem(ModItems.CITRINE_SHOVEL);
+        simpleItem(ModItems.CITRINE_HOE);
+        simpleItem(ModItems.WHITE_OPAL_SWORD);
+        simpleItem(ModItems.WHITE_OPAL_PICKAXE);
+        simpleItem(ModItems.WHITE_OPAL_AXE);
+        simpleItem(ModItems.WHITE_OPAL_SHOVEL);
+        simpleItem(ModItems.WHITE_OPAL_HOE);
     }
 
 

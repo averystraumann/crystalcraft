@@ -87,6 +87,34 @@ public class crystalcraft
             event.accept(ModItems.WHITE_OPAL_BOOTS);
         }
 
+        if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.RUBY_SWORD);
+            event.accept(ModItems.RUBY_PICKAXE);
+            event.accept(ModItems.RUBY_AXE);
+            event.accept(ModItems.RUBY_SHOVEL);
+            event.accept(ModItems.RUBY_HOE);
+            event.accept(ModItems.SAPPHIRE_SWORD);
+            event.accept(ModItems.SAPPHIRE_PICKAXE);
+            event.accept(ModItems.SAPPHIRE_AXE);
+            event.accept(ModItems.SAPPHIRE_SHOVEL);
+            event.accept(ModItems.SAPPHIRE_HOE);
+            event.accept(ModItems.AMETHYST_SWORD);
+            event.accept(ModItems.AMETHYST_PICKAXE);
+            event.accept(ModItems.AMETHYST_AXE);
+            event.accept(ModItems.AMETHYST_SHOVEL);
+            event.accept(ModItems.AMETHYST_HOE);
+            event.accept(ModItems.CITRINE_SWORD);
+            event.accept(ModItems.CITRINE);
+            event.accept(ModItems.CITRINE_AXE);
+            event.accept(ModItems.CITRINE_SHOVEL);
+            event.accept(ModItems.CITRINE_HOE);
+            event.accept(ModItems.WHITE_OPAL_SWORD);
+            event.accept(ModItems.WHITE_OPAL_PICKAXE);
+            event.accept(ModItems.WHITE_OPAL_AXE);
+            event.accept(ModItems.WHITE_OPAL_SHOVEL);
+            event.accept(ModItems.WHITE_OPAL_HOE);
+        }
+
     }
 
 
