@@ -71,40 +71,40 @@ public class ModConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> whiteopalOres = List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.WHITE_OPAL_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_WHITE_OPAL_ORE.get().defaultBlockState()));
 
-        register(context, RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 4, 0.6f));
-        register(context, LARGE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 11, 0.7f));
-        register(context, BURIED_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 6, 1.0f));
-        register(context, DEEPSLATE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 4, 0.6f));
-        register(context, LARGE_DEEPSLATE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 11, 0.7f));
-        register(context, BURIED_DEEPSLATE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 6, 1.0f));
+        register(context, RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 3, 0.6f));
+        register(context, LARGE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 8, 0.7f));
+        register(context, BURIED_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 5, 1.0f));
+        register(context, DEEPSLATE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 3, 0.6f));
+        register(context, LARGE_DEEPSLATE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 8, 0.7f));
+        register(context, BURIED_DEEPSLATE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 5, 1.0f));
 
-        register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 4, 0.6f));
-        register(context, LARGE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 11, 0.7f));
-        register(context, BURIED_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 6, 1.0f));
-        register(context, DEEPSLATE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 4, 0.6f));
-        register(context, LARGE_DEEPSLATE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 11, 0.7f));
-        register(context, BURIED_DEEPSLATE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 6, 1.0f));
+        register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 3, 0.6f));
+        register(context, LARGE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 8, 0.7f));
+        register(context, BURIED_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 5, 1.0f));
+        register(context, DEEPSLATE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 3, 0.6f));
+        register(context, LARGE_DEEPSLATE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 8, 0.7f));
+        register(context, BURIED_DEEPSLATE_SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(sapphireOres, 5, 1.0f));
 
-        register(context, AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 4, 0.6f));
-        register(context, LARGE_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 11, 0.7f));
-        register(context, BURIED_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 6, 1.0f));
-        register(context, DEEPSLATE_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 4, 0.6f));
-        register(context, LARGE_DEEPSLATE_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 11, 0.7f));
-        register(context, BURIED_DEEPSLATE_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 6, 1.0f));
+        register(context, AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 3, 0.6f));
+        register(context, LARGE_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 8, 0.7f));
+        register(context, BURIED_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 5, 1.0f));
+        register(context, DEEPSLATE_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 3, 0.6f));
+        register(context, LARGE_DEEPSLATE_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 8, 0.7f));
+        register(context, BURIED_DEEPSLATE_AMETHYST_ORE_KEY, Feature.ORE, new OreConfiguration(amethystOres, 5, 1.0f));
 
-        register(context, CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 4, 0.6f));
-        register(context, LARGE_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 11, 0.7f));
-        register(context, BURIED_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 6, 1.0f));
-        register(context, DEEPSLATE_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 4, 0.6f));
-        register(context, LARGE_DEEPSLATE_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 11, 0.7f));
-        register(context, BURIED_DEEPSLATE_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 6, 1.0f));
+        register(context, CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 3, 0.6f));
+        register(context, LARGE_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 8, 0.7f));
+        register(context, BURIED_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 5, 1.0f));
+        register(context, DEEPSLATE_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 3, 0.6f));
+        register(context, LARGE_DEEPSLATE_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 8, 0.7f));
+        register(context, BURIED_DEEPSLATE_CITRINE_ORE_KEY, Feature.ORE, new OreConfiguration(citrineOres, 5, 1.0f));
 
-        register(context, WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 4, 0.6f));
-        register(context, LARGE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 11, 0.7f));
-        register(context, BURIED_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 6, 1.0f));
-        register(context, DEEPSLATE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 4, 0.6f));
-        register(context, LARGE_DEEPSLATE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 11, 0.7f));
-        register(context, BURIED_DEEPSLATE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 6, 1.0f));
+        register(context, WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 3, 0.6f));
+        register(context, LARGE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 8, 0.7f));
+        register(context, BURIED_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 5, 1.0f));
+        register(context, DEEPSLATE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 3, 0.6f));
+        register(context, LARGE_DEEPSLATE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 8, 0.7f));
+        register(context, BURIED_DEEPSLATE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 5, 1.0f));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

@@ -72,7 +72,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
-            () -> new SwordItem(ModItemTier.RUBY, 3, -2.4F, new Item.Properties()));
+            () -> new RubySwordItem(ModItemTier.RUBY, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_SHOVEL = ITEMS.register("ruby_shovel",
             () -> new ShovelItem(ModItemTier.RUBY, 1.5F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe",
@@ -83,7 +83,7 @@ public class ModItems {
             () -> new HoeItem(ModItemTier.RUBY, -3, 0.0F, new Item.Properties()));
 
     public static final RegistryObject<Item> SAPPHIRE_SWORD = ITEMS.register("sapphire_sword",
-            () -> new SwordItem(ModItemTier.SAPPHIRE, 3, -2.4F, new Item.Properties()));
+            () -> new SapphireSwordItem(ModItemTier.SAPPHIRE, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
             () -> new ShovelItem(ModItemTier.SAPPHIRE, 1.5F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_PICKAXE = ITEMS.register("sapphire_pickaxe",
@@ -94,7 +94,7 @@ public class ModItems {
             () -> new HoeItem(ModItemTier.SAPPHIRE, -3, 0.0F, new Item.Properties()));
 
     public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
-            () -> new SwordItem(ModItemTier.AMETHYST, 3, -2.4F, new Item.Properties()));
+            () -> new AmethystSwordItem(ModItemTier.AMETHYST, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel",
             () -> new ShovelItem(ModItemTier.AMETHYST, 1.5F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe",
@@ -105,7 +105,7 @@ public class ModItems {
             () -> new HoeItem(ModItemTier.AMETHYST, -3, 0.0F, new Item.Properties()));
 
     public static final RegistryObject<Item> CITRINE_SWORD = ITEMS.register("citrine_sword",
-            () -> new SwordItem(ModItemTier.CITRINE, 3, -2.4F, new Item.Properties()));
+            () -> new CitrineSwordItem(ModItemTier.CITRINE, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> CITRINE_SHOVEL = ITEMS.register("citrine_shovel",
             () -> new ShovelItem(ModItemTier.CITRINE, 1.5F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> CITRINE_PICKAXE = ITEMS.register("citrine_pickaxe",
@@ -117,7 +117,7 @@ public class ModItems {
 
 
     public static final RegistryObject<Item> WHITE_OPAL_SWORD = ITEMS.register("white_opal_sword",
-            () -> new SwordItem(ModItemTier.WHITE_OPAL, 3, -2.4F, new Item.Properties()));
+            () -> new WhiteOpalSwordItem(ModItemTier.WHITE_OPAL, 3, -2.4F, new Item.Properties()));
     public static final RegistryObject<Item> WHITE_OPAL_SHOVEL = ITEMS.register("white_opal_shovel",
             () -> new ShovelItem(ModItemTier.WHITE_OPAL, 1.5F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> WHITE_OPAL_PICKAXE = ITEMS.register("white_opal_pickaxe",

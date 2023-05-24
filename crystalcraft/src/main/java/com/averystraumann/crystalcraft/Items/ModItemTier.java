@@ -31,12 +31,6 @@ public enum ModItemTier implements Tier {
     private final int enchantmentValue;
     private final LazyLoadedValue<Ingredient> repairIngredient;
 
-
-
-
-
-
-
     ModItemTier(int level, int durability, float miningSpeed, float damage, int enchantmentValue, Supplier<Ingredient> repairIngredient) {
         this.level = level;
         this.uses = durability;

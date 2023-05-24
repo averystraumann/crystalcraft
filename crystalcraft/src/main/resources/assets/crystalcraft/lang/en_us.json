@@ -63,5 +63,6 @@
   "item.crystalcraft.white_opal_pickaxe": "White Opal Pickaxe",
   "item.crystalcraft.white_opal_axe": "White Opal Axe",
   "item.crystalcraft.white_opal_shovel": "White Opal Shovel",
-  "item.crystalcraft.white_opal_hoe": "White Opal Hoe"
+  "item.crystalcraft.white_opal_hoe": "White Opal Hoe",
+  "effect.crystalcraft.burn": "Burn"
 }

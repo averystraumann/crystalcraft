@@ -2,6 +2,7 @@ package com.averystraumann.crystalcraft;
 
 import com.averystraumann.crystalcraft.Blocks.ModBlocks;
 import com.averystraumann.crystalcraft.Items.ModItems;
+import com.averystraumann.crystalcraft.effect.ModEffects;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -30,6 +31,7 @@ public class crystalcraft
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEffects.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
