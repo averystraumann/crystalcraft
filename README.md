@@ -1,10 +1,11 @@
 crystalcraft is a mod for Minecraft 1.19.3 that adds new crystal ores with unique properties to the game! :D
 
 summary of crystals and properties:
+
 ruby: 
   - armor gives regeneration effect
   - sword gives wither effect to target mob
-  -
+  
 sapphire:
   - armor gives water breathing effect
   - sword gives slowness effect to target mob
