@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:white_opal_shovel"
-  }
+  },
+  "show_notification": true
 }

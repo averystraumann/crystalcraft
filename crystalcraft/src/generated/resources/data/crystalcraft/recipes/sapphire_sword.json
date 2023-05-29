@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:sapphire_sword"
-  }
+  },
+  "show_notification": true
 }

@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:amethyst_hoe"
-  }
+  },
+  "show_notification": true
 }

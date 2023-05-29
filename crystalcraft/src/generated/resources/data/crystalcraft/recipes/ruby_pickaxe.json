@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:ruby_pickaxe"
-  }
+  },
+  "show_notification": true
 }

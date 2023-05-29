@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "crystalcraft:ruby_leggings"
-  }
+  },
+  "show_notification": true
 }

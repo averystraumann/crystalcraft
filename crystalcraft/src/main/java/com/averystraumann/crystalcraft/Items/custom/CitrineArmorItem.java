@@ -10,7 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class CitrineArmorItem  extends ArmorItem {
-    public CitrineArmorItem(ArmorMaterial material, EquipmentSlot type, Properties properties) {
+    public CitrineArmorItem(ArmorMaterial material, Type type, Properties properties) {
         super(material, type, properties);
     }
 

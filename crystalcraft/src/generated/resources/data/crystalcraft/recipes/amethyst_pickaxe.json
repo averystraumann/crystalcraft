@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:amethyst_pickaxe"
-  }
+  },
+  "show_notification": true
 }

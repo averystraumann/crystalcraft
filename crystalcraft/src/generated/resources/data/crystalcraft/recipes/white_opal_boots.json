@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "crystalcraft:white_opal_boots"
-  }
+  },
+  "show_notification": true
 }

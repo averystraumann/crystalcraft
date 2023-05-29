@@ -3,10 +3,13 @@ package com.averystraumann.crystalcraft;
 import com.averystraumann.crystalcraft.Blocks.ModBlocks;
 import com.averystraumann.crystalcraft.Items.ModItems;
 import com.averystraumann.crystalcraft.effect.ModEffects;
+import com.averystraumann.crystalcraft.entity.ModEntities;
+import com.averystraumann.crystalcraft.entity.client.RubyCowModel;
+import com.averystraumann.crystalcraft.entity.client.RubyCowRenderer;
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -32,6 +35,7 @@ public class crystalcraft
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModEffects.register(modEventBus);
+        ModEntities.register(modEventBus);
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
     }
@@ -142,9 +146,10 @@ public class crystalcraft
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            // Some client setup code
-            LOGGER.info("HELLO FROM CLIENT SETUP");
-            LOGGER.info("MINECRAFT NAME >> {}", Minecraft.getInstance().getUser().getName());
+
         }
+
+
+
     }
 }

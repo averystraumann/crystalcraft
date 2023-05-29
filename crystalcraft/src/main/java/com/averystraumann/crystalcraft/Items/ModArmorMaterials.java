@@ -4,6 +4,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.LazyLoadedValue;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
 
@@ -55,7 +56,18 @@ public enum ModArmorMaterials implements ArmorMaterial {
     public int getDefenseForSlot(EquipmentSlot p_40487_) {
             return this.slotProtections[p_40487_.getIndex()];
         }
-        public int getEnchantmentValue() {
+
+    @Override
+    public int getDurabilityForType(ArmorItem.Type p_266807_) {
+        return 0;
+    }
+
+    @Override
+    public int getDefenseForType(ArmorItem.Type p_267168_) {
+        return 0;
+    }
+
+    public int getEnchantmentValue() {
             return this.enchantmentValue;
         }
         public SoundEvent getEquipSound() {

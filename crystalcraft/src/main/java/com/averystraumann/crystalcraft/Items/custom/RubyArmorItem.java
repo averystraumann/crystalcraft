@@ -10,7 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class RubyArmorItem  extends ArmorItem {
-    public RubyArmorItem(ArmorMaterial material, EquipmentSlot type, Properties properties) {
+    public RubyArmorItem(ArmorMaterial material, Type type, Properties properties) {
         super(material, type, properties);
     }
 

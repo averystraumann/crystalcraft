@@ -10,7 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class WhiteOpalArmorItem  extends ArmorItem {
-    public WhiteOpalArmorItem(ArmorMaterial material, EquipmentSlot type, Properties properties) {
+    public WhiteOpalArmorItem(ArmorMaterial material, Type type, Properties properties) {
         super(material, type, properties);
     }
 

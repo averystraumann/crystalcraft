@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:amethyst_axe"
-  }
+  },
+  "show_notification": true
 }

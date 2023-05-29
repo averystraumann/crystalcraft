@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "crystalcraft:ruby_helmet"
-  }
+  },
+  "show_notification": true
 }

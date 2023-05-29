@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "crystalcraft:citrine_boots"
-  }
+  },
+  "show_notification": true
 }

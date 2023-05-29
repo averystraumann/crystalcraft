@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "crystalcraft:citrine_chestplate"
-  }
+  },
+  "show_notification": true
 }

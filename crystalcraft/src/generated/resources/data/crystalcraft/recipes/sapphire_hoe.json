@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:sapphire_hoe"
-  }
+  },
+  "show_notification": true
 }

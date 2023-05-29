@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:ruby_shovel"
-  }
+  },
+  "show_notification": true
 }

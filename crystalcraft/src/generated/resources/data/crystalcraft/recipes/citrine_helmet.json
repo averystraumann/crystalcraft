@@ -12,5 +12,6 @@
   ],
   "result": {
     "item": "crystalcraft:citrine_helmet"
-  }
+  },
+  "show_notification": true
 }

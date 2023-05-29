@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:white_opal_axe"
-  }
+  },
+  "show_notification": true
 }

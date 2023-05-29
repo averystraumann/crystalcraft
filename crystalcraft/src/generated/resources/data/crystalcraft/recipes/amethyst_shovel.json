@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:amethyst_shovel"
-  }
+  },
+  "show_notification": true
 }

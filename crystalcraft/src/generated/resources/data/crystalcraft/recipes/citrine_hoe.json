@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:citrine_hoe"
-  }
+  },
+  "show_notification": true
 }

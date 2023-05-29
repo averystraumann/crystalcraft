@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:white_opal_hoe"
-  }
+  },
+  "show_notification": true
 }

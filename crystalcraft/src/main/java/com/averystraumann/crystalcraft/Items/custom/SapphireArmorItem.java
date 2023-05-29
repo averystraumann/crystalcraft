@@ -10,7 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 
 public class SapphireArmorItem  extends ArmorItem {
-    public SapphireArmorItem(ArmorMaterial material, EquipmentSlot type, Properties properties) {
+    public SapphireArmorItem(ArmorMaterial material, Type type, Properties properties) {
         super(material, type, properties);
     }
 

@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "crystalcraft:white_opal_block"
-  }
+  },
+  "show_notification": true
 }

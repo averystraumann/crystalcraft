@@ -13,5 +13,6 @@
   ],
   "result": {
     "item": "crystalcraft:amethyst_block"
-  }
+  },
+  "show_notification": true
 }

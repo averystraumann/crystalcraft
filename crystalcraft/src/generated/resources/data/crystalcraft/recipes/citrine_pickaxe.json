@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:citrine_pickaxe"
-  }
+  },
+  "show_notification": true
 }

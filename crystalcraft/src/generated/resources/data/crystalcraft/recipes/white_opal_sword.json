@@ -16,5 +16,6 @@
   ],
   "result": {
     "item": "crystalcraft:white_opal_sword"
-  }
+  },
+  "show_notification": true
 }
