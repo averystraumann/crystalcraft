@@ -68,6 +68,11 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WHITE_OPAL_AXE);
         simpleItem(ModItems.WHITE_OPAL_SHOVEL);
         simpleItem(ModItems.WHITE_OPAL_HOE);
+        simpleItem(ModItems.RUBY_MILK);
+        simpleItem(ModItems.AMETHYST_MILK);
+        simpleItem(ModItems.SAPPHIRE_MILK);
+        simpleItem(ModItems.CITRINE_MILK);
+        simpleItem(ModItems.WHITE_OPAL_MILK);
     }
 
 

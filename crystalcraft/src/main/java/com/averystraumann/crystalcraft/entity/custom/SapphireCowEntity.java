@@ -36,8 +36,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
-public class RubyCowEntity extends Animal {
-    public RubyCowEntity(EntityType<? extends RubyCowEntity> p_28285_, Level p_28286_) {
+public class SapphireCowEntity extends Animal {
+    public SapphireCowEntity(EntityType<? extends SapphireCowEntity> p_28285_, Level p_28286_) {
         super(p_28285_, p_28286_);
     }
 
@@ -52,7 +52,7 @@ public class RubyCowEntity extends Animal {
         this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
     }
 
-    public static AttributeSupplier.Builder getRubyCowAttributes() {
+    public static AttributeSupplier.Builder getSapphireCowAttributes() {
         return Mob.createMobAttributes().add(Attributes.MAX_HEALTH, 10.0D).add(Attributes.MOVEMENT_SPEED, 0.2F);
     }
 
@@ -80,8 +80,7 @@ public class RubyCowEntity extends Animal {
         ItemStack itemstack = p_28298_.getItemInHand(p_28299_);
         if (itemstack.is(Items.BUCKET) && !this.isBaby()) {
             p_28298_.playSound(SoundEvents.COW_MILK, 1.0F, 1.0F);
-          //  ItemStack itemstack1 = ItemUtils.createFilledResult(itemstack, p_28298_, new ItemStack(ModItems.RUBY_MILK.get()));
-            p_28298_.setItemInHand(p_28299_, new ItemStack(ModItems.RUBY_MILK.get()));
+            p_28298_.setItemInHand(p_28299_, new ItemStack(ModItems.SAPPHIRE_MILK.get()));
             return InteractionResult.sidedSuccess(this.level.isClientSide);
         } else {
             return super.mobInteract(p_28298_, p_28299_);
@@ -90,8 +89,8 @@ public class RubyCowEntity extends Animal {
 
     @Nullable
     @Override
-    public RubyCowEntity getBreedOffspring(ServerLevel p_148890_, AgeableMob p_148891_) {
-        return ModEntities.RUBY_COW.get().create(level);
+    public SapphireCowEntity getBreedOffspring(ServerLevel p_148890_, AgeableMob p_148891_) {
+        return ModEntities.SAPPHIRE_COW.get().create(level);
     }
 
     protected float getStandingEyeHeight(Pose p_28295_, EntityDimensions p_28296_) {

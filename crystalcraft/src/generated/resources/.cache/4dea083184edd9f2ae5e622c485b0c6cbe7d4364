@@ -1,4 +1,4 @@
-// 1.19.4	2023-05-26T14:59:01.2511481	Item Models: crystalcraft
+// 1.19.4	2023-06-01T13:39:50.4923934	Item Models: crystalcraft
 54a269fbf5d85d6869d61cd577e2ec781fe52089 assets/crystalcraft/models/item/amethyst.json
 564dfbfd6f93bb654f46fbb9414251a7808ad0ac assets/crystalcraft/models/item/amethyst_axe.json
 ac7a16314ca0159450b8da44def74f068c6df546 assets/crystalcraft/models/item/amethyst_boots.json
@@ -26,6 +26,7 @@ fd14e95fed44ce0a8b101cb1c758aeb6ec7b8dc1 assets/crystalcraft/models/item/ruby_bo
 d81fc78ed2af18fd646629a05ca4e30a69486dcc assets/crystalcraft/models/item/ruby_helmet.json
 1f095a0b95e99b5318c9d0225df57126150c4b68 assets/crystalcraft/models/item/ruby_hoe.json
 8ac7e250cac63e3abf4ad342a7a63a7e53e5d879 assets/crystalcraft/models/item/ruby_leggings.json
+fad807bd6b8973532b43b27fbfa76d44e96335f0 assets/crystalcraft/models/item/ruby_milk.json
 55efaa662bfdd29e9041b2085e12eaff5ff889ac assets/crystalcraft/models/item/ruby_pickaxe.json
 bbd077b4db34f0a0b38e48d6733ac6a2e22a797f assets/crystalcraft/models/item/ruby_shovel.json
 874386d6dc7a16f65b5be90281f8ab4715bef9c6 assets/crystalcraft/models/item/ruby_sword.json

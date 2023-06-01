@@ -57,10 +57,6 @@ public class RubyCowModel extends EntityModel<RubyCowEntity> {
 		return LayerDefinition.create(meshdefinition, 64, 32);
 	}
 
-	@Override
-	public void setupAnim(RubyCowEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-
-	}
 
 	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
@@ -70,5 +66,10 @@ public class RubyCowModel extends EntityModel<RubyCowEntity> {
 		leg2.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		leg3.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		leg4.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+	}
+
+	@Override
+	public void setupAnim(RubyCowEntity p_102618_, float p_102619_, float p_102620_, float p_102621_, float p_102622_, float p_102623_) {
+
 	}
 }

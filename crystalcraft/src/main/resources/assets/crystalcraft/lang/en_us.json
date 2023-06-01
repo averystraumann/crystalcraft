@@ -64,5 +64,10 @@
   "item.crystalcraft.white_opal_axe": "White Opal Axe",
   "item.crystalcraft.white_opal_shovel": "White Opal Shovel",
   "item.crystalcraft.white_opal_hoe": "White Opal Hoe",
-  "effect.crystalcraft.burn": "Burn"
+  "effect.crystalcraft.burn": "Burn",
+  "item.crystalcraft.ruby_milk": "Ruby Milk",
+  "item.crystalcraft.sapphire_milk": "Sapphire Milk",
+  "item.crystalcraft.amethyst_milk": "Amethyst Milk",
+  "item.crystalcraft.citrine_milk": "Citrine Milk",
+  "item.crystalcraft.white_opal_milk": "White Opal Milk"
 }

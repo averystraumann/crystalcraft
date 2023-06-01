@@ -4,12 +4,9 @@ import com.averystraumann.crystalcraft.Blocks.ModBlocks;
 import com.averystraumann.crystalcraft.Items.ModItems;
 import com.averystraumann.crystalcraft.effect.ModEffects;
 import com.averystraumann.crystalcraft.entity.ModEntities;
-import com.averystraumann.crystalcraft.entity.client.RubyCowModel;
-import com.averystraumann.crystalcraft.entity.client.RubyCowRenderer;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -119,6 +116,14 @@ public class crystalcraft
             event.accept(ModItems.WHITE_OPAL_AXE);
             event.accept(ModItems.WHITE_OPAL_SHOVEL);
             event.accept(ModItems.WHITE_OPAL_HOE);
+        }
+
+        if (event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.RUBY_MILK);
+            event.accept(ModItems.SAPPHIRE_MILK);
+            event.accept(ModItems.AMETHYST_MILK);
+            event.accept(ModItems.CITRINE_MILK);
+            event.accept(ModItems.WHITE_OPAL_MILK);
         }
 
     }

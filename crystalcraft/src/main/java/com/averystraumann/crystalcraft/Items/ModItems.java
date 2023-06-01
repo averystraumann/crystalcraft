@@ -9,6 +9,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
 
+import static net.minecraft.world.item.Items.BUCKET;
+
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, crystalcraft.MODID);
 
@@ -126,6 +128,18 @@ public class ModItems {
             () -> new AxeItem(ModItemTier.WHITE_OPAL, 5.0F, -3.0F, new Item.Properties()));
     public static final RegistryObject<Item> WHITE_OPAL_HOE = ITEMS.register("white_opal_hoe",
             () -> new HoeItem(ModItemTier.WHITE_OPAL, -3, 0.0F, new Item.Properties()));
+
+
+    public static final RegistryObject<Item> RUBY_MILK = ITEMS.register("ruby_milk",
+            () -> new RubyMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> SAPPHIRE_MILK = ITEMS.register("sapphire_milk",
+            () -> new SapphireMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> AMETHYST_MILK = ITEMS.register("amethyst_milk",
+            () -> new AmethystMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> CITRINE_MILK = ITEMS.register("citrine_milk",
+            () -> new CitrineMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> WHITE_OPAL_MILK = ITEMS.register("white_opal_milk",
+            () -> new WhiteOpalMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
 
 
     public static void register(IEventBus eventBus) {
