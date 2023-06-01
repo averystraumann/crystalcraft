@@ -10,7 +10,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 @OnlyIn(Dist.CLIENT)
 public class WhiteOpalCowRenderer extends MobRenderer<WhiteOpalCowEntity, WhiteOpalCowModel> {
-    private static final ResourceLocation TEXTURE = new ResourceLocation(crystalcraft.MODID, "textures/entity/citrine_cow.png");
+    private static final ResourceLocation TEXTURE = new ResourceLocation(crystalcraft.MODID, "textures/entity/white_opal_cow.png");
     public WhiteOpalCowRenderer(EntityRendererProvider.Context p_174304_) {
         super(p_174304_, new WhiteOpalCowModel(p_174304_.bakeLayer(WhiteOpalCowModel.LAYER_LOCATION)), 0.5f);
     }

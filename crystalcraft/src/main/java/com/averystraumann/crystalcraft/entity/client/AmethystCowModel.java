@@ -13,6 +13,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.geom.PartPose;
 import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.util.Mth;
 
 public class AmethystCowModel extends EntityModel<AmethystCowEntity> {
     // This layer location should be baked with EntityRendererProvider.Context in the entity renderer and passed into this model's constructor
@@ -50,8 +51,6 @@ public class AmethystCowModel extends EntityModel<AmethystCowEntity> {
 
         PartDefinition leg3 = partdefinition.addOrReplaceChild("leg3", CubeListBuilder.create().texOffs(0, 16).addBox(-2.0F, 0.0F, -1.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(-4.0F, 12.0F, -6.0F));
 
-        PartDefinition leg5 = leg3.addOrReplaceChild("leg5", CubeListBuilder.create().texOffs(0, 16).addBox(-2.0F, 0.0F, -2.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(8.0F, 0.0F, 13.0F));
-
         PartDefinition leg4 = partdefinition.addOrReplaceChild("leg4", CubeListBuilder.create().texOffs(0, 16).addBox(-2.0F, 0.0F, -1.0F, 4.0F, 12.0F, 4.0F, new CubeDeformation(0.0F)), PartPose.offset(4.0F, 12.0F, -6.0F));
 
         return LayerDefinition.create(meshdefinition, 64, 32);
@@ -70,7 +69,12 @@ public class AmethystCowModel extends EntityModel<AmethystCowEntity> {
 
 
     @Override
-    public void setupAnim(AmethystCowEntity p_102618_, float p_102619_, float p_102620_, float p_102621_, float p_102622_, float p_102623_) {
-
+    public void setupAnim(AmethystCowEntity p_103509_, float p_103510_, float p_103511_, float p_103512_, float p_103513_, float p_103514_) {
+        this.head.xRot = p_103514_ * ((float)Math.PI / 180F);
+        this.head.yRot = p_103513_ * ((float)Math.PI / 180F);
+        this.leg2.xRot = Mth.cos(p_103510_ * 0.6662F) * 1.4F * p_103511_;
+        this.leg1.xRot = Mth.cos(p_103510_ * 0.6662F + (float)Math.PI) * 1.4F * p_103511_;
+        this.leg4.xRot = Mth.cos(p_103510_ * 0.6662F + (float)Math.PI) * 1.4F * p_103511_;
+        this.leg3.xRot = Mth.cos(p_103510_ * 0.6662F) * 1.4F * p_103511_;
+        }
     }
-}

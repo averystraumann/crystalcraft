@@ -1,4 +1,4 @@
-// 1.19.4	2023-06-01T13:39:50.4923934	Item Models: crystalcraft
+// 1.19.4	2023-06-01T14:57:29.6752117	Item Models: crystalcraft
 54a269fbf5d85d6869d61cd577e2ec781fe52089 assets/crystalcraft/models/item/amethyst.json
 564dfbfd6f93bb654f46fbb9414251a7808ad0ac assets/crystalcraft/models/item/amethyst_axe.json
 ac7a16314ca0159450b8da44def74f068c6df546 assets/crystalcraft/models/item/amethyst_boots.json
@@ -6,6 +6,7 @@ ac7a16314ca0159450b8da44def74f068c6df546 assets/crystalcraft/models/item/amethys
 3f65df6d5ce05f6f76b2ca4ceefc0d4fc95a5f7c assets/crystalcraft/models/item/amethyst_helmet.json
 ddfda58f538a7ff50bcdb725a530eaa41d679e9c assets/crystalcraft/models/item/amethyst_hoe.json
 29013f1450067a1632096190ae784294a21bb844 assets/crystalcraft/models/item/amethyst_leggings.json
+e6fb3853b0fedeba34ee6bf0ba15734240e0c23f assets/crystalcraft/models/item/amethyst_milk.json
 b5354069ecb5e976d357d02e3c6a5564b82f62d6 assets/crystalcraft/models/item/amethyst_pickaxe.json
 bea14370ddbea0cf1873f8eb4253d8c55136b85e assets/crystalcraft/models/item/amethyst_shovel.json
 ab1dcb1ad78557de2f13b4a30e6ad22151e29e2f assets/crystalcraft/models/item/amethyst_sword.json
@@ -16,6 +17,7 @@ ab1dcb1ad78557de2f13b4a30e6ad22151e29e2f assets/crystalcraft/models/item/amethys
 5b211e27248678d07b9d4e23da023178f903d57d assets/crystalcraft/models/item/citrine_helmet.json
 d164a28c7e15ca727a9907fe0dcbe45921e886da assets/crystalcraft/models/item/citrine_hoe.json
 8fe9e950bf0d975ed890261ab1a2e0eb9a296e09 assets/crystalcraft/models/item/citrine_leggings.json
+3b5001a86c2f80b5b31af5ba033c32dd39f1ce5f assets/crystalcraft/models/item/citrine_milk.json
 da2dcb3be6e51696e87477228195f928ace941a6 assets/crystalcraft/models/item/citrine_pickaxe.json
 732aea7af9f60f3fbe101410c3a4e8bb70292037 assets/crystalcraft/models/item/citrine_shovel.json
 9717fcf8f87f277eac6d422bf91204d9e7610eb2 assets/crystalcraft/models/item/citrine_sword.json
@@ -37,6 +39,7 @@ c55c755e5d7d78313915dab8cfc0502e63bd3bb6 assets/crystalcraft/models/item/sapphir
 1f78e06f61f3999fd3c97ee87ded07f0ba0dc7d9 assets/crystalcraft/models/item/sapphire_helmet.json
 3761e721a33cc29af3efe67c11a37f234a12e96b assets/crystalcraft/models/item/sapphire_hoe.json
 9d62e4f3ea1875337ba60ce849682ce9dfce4a4e assets/crystalcraft/models/item/sapphire_leggings.json
+02968ba19fca58270eb3e60b3bdcf3809a14ec69 assets/crystalcraft/models/item/sapphire_milk.json
 fc5106fcdf0f976bfad6406b1ea05cbbf31060c6 assets/crystalcraft/models/item/sapphire_pickaxe.json
 775b399c5dad6c244db0b97238d0914b26442a8d assets/crystalcraft/models/item/sapphire_shovel.json
 28a20a55e3b5903aa4213ed7b2e76c014ac48bb9 assets/crystalcraft/models/item/sapphire_sword.json
@@ -47,6 +50,7 @@ fdef8ec7d6ed0d19ffe6a2419db46d8d51a82231 assets/crystalcraft/models/item/white_o
 55170c9b4cc812701d339a29fb14eb071ee48449 assets/crystalcraft/models/item/white_opal_helmet.json
 98d94244fa861a4449b70e9edc5105b84c0f1819 assets/crystalcraft/models/item/white_opal_hoe.json
 3242df3ef89503f0cceac3b73d1dd0d645534b84 assets/crystalcraft/models/item/white_opal_leggings.json
+d5e3e8ae25e688915b8b7f4494fe736c92be6605 assets/crystalcraft/models/item/white_opal_milk.json
 3771ef33b0618f3d42c4b17e3d0140e674857168 assets/crystalcraft/models/item/white_opal_pickaxe.json
 5610ce6e810f44a2d9211cc00703e628e074292a assets/crystalcraft/models/item/white_opal_shovel.json
 6632fd27e79a913405d860988c8746edb785979d assets/crystalcraft/models/item/white_opal_sword.json
