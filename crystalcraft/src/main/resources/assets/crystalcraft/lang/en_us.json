@@ -69,5 +69,10 @@
   "item.crystalcraft.sapphire_milk": "Sapphire Milk",
   "item.crystalcraft.amethyst_milk": "Amethyst Milk",
   "item.crystalcraft.citrine_milk": "Citrine Milk",
-  "item.crystalcraft.white_opal_milk": "White Opal Milk"
+  "item.crystalcraft.white_opal_milk": "White Opal Milk",
+  "item.crystalcraft.ruby_cow_spawn_egg": "Ruby Cow Spawn Egg",
+  "item.crystalcraft.sapphire_cow_spawn_egg": "Sapphire Cow Spawn Egg",
+  "item.crystalcraft.amethyst_cow_spawn_egg": "Amethyst Cow Spawn Egg",
+  "item.crystalcraft.citrine_cow_spawn_egg": "Citrine Cow Spawn Egg",
+  "item.crystalcraft.white_opal_cow_spawn_egg": "White Opal Cow Spawn Egg"
 }

@@ -10,6 +10,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.CreativeModeTabEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
+import net.minecraftforge.eventbus.api.GenericEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -124,6 +125,14 @@ public class crystalcraft
             event.accept(ModItems.AMETHYST_MILK);
             event.accept(ModItems.CITRINE_MILK);
             event.accept(ModItems.WHITE_OPAL_MILK);
+        }
+
+        if (event.getTab() == CreativeModeTabs.SPAWN_EGGS) {
+            event.accept(ModItems.RUBY_COW_SPAWN_EGG);
+            event.accept(ModItems.AMETHYST_COW_SPAWN_EGG);
+            event.accept(ModItems.SAPPHIRE_COW_SPAWN_EGG);
+            event.accept(ModItems.CITRINE_COW_SPAWN_EGG);
+            event.accept(ModItems.WHITE_OPAL_COW_SPAWN_EGG);
         }
 
     }

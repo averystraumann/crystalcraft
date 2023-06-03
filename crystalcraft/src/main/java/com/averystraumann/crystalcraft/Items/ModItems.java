@@ -2,8 +2,10 @@ package com.averystraumann.crystalcraft.Items;
 
 import com.averystraumann.crystalcraft.Items.custom.*;
 import com.averystraumann.crystalcraft.crystalcraft;
+import com.averystraumann.crystalcraft.entity.ModEntities;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -140,6 +142,19 @@ public class ModItems {
             () -> new CitrineMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
     public static final RegistryObject<Item> WHITE_OPAL_MILK = ITEMS.register("white_opal_milk",
             () -> new WhiteOpalMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
+
+
+    public static final RegistryObject<ForgeSpawnEggItem> RUBY_COW_SPAWN_EGG = ITEMS.register("ruby_cow_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.RUBY_COW, 0xc40642, 0xffa3b1, new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<ForgeSpawnEggItem> SAPPHIRE_COW_SPAWN_EGG = ITEMS.register("sapphire_cow_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.SAPPHIRE_COW, 0x1a1f80, 0x558ae0, new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<ForgeSpawnEggItem> AMETHYST_COW_SPAWN_EGG = ITEMS.register("amethyst_cow_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.AMETHYST_COW, 0x351b47, 0x6d3096, new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<ForgeSpawnEggItem> CITRINE_COW_SPAWN_EGG = ITEMS.register("citrine_cow_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.CITRINE_COW, 0xff7c24, 0xffc107, new Item.Properties().stacksTo(16)));
+    public static final RegistryObject<ForgeSpawnEggItem> WHITE_OPAL_COW_SPAWN_EGG = ITEMS.register("white_opal_cow_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.WHITE_OPAL_COW, 0xdbf7cf, 0xffe0fd, new Item.Properties().stacksTo(16)));
+
 
 
     public static void register(IEventBus eventBus) {
