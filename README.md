@@ -1,6 +1,6 @@
 crystalcraft is a mod for Minecraft 1.19.3 that adds new crystal ores with unique properties to the game! :D
 
-~~~~~~~~~~ DOWNLOAD HERE: https://www.curseforge.com/minecraft/mc-mods/crystalcraft-by-avery ~~~~~~~~~~
+DOWNLOAD HERE: https://www.curseforge.com/minecraft/mc-mods/crystalcraft-by-avery 
 
 summary of crystals and properties:
 
