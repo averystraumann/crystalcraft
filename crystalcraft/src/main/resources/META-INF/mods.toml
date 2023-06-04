@@ -19,7 +19,7 @@ modId="crystalcraft" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 # ${file.jarVersion} will substitute the value of the Implementation-Version as read from the mod's JAR file metadata
 # see the associated build.gradle script for how to populate this completely automatically during a build
-version="${file.jarVersion}" #mandatory
+version="1.19.4-1.0.0" #mandatory
  # A display name for the mod
 displayName="crystalcraft" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
@@ -27,9 +27,9 @@ displayName="crystalcraft" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="examplemod.png" #optional
+logoFile="Sageimagekit-resized-img.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="Thanks for crystalcraft goes to Java, my favorite language" #optional
 # A text field displayed in the mod UI
 authors="Avery Straumann" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -42,12 +42,9 @@ authors="Avery Straumann" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a long form description of the mod. You can write whatever you want here
+crystalcraft is a mod for Minecraft 1.19.4 that adds rare crystals with unique properties to the games! The armor created with each type of crystal will give different effects to the user, and the swords will cause the target hit to experience an effect as well. There is also the inclusion of the Crystal Cow mobs, which can be milked to receive milk infused with the property of the crystal type of the cow.
 
-Have some lorem ipsum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-'''
+Have fun exploring the different effects of crystals in this mod that enhances the vanilla experience, while still feeling like classic minecraft!'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.crystalcraft]] #optional
     # the modid of the dependency
@@ -60,17 +57,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
     ordering="NONE"
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
-[[dependencies.crystalcraft]] #optional
-# the modid of the dependency
-modId="geckolib" #mandatory
-# Does this dependency have to exist - if not, ordering below must be specified
-mandatory=true #mandatory
-# The version range of the dependency
-versionRange="[4.1.2]" #mandatory
-# An ordering relationship for the dependency - BEFORE or AFTER required if the relationship is not mandatory
-ordering="NONE"
-# Side this dependency is applied on - BOTH, CLIENT or SERVER
-side="BOTH"
+
 # Here's another dependency
 [[dependencies.crystalcraft]]
     modId="minecraft"

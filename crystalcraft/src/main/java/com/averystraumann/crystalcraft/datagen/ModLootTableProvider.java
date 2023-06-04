@@ -1,6 +1,5 @@
 package com.averystraumann.crystalcraft.datagen;
 
-import com.ibm.icu.impl.Pair;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
 import net.minecraft.data.loot.packs.*;
