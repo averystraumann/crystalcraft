@@ -1,6 +1,14 @@
 {
   "type": "forge:add_features",
-  "biomes": "#is_overworld",
+  "biomes" : [
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:desert"
+  ],
   "features": "crystalcraft:buried_deepslate_citrine_ore_placed",
   "step": "underground_ores"
 }

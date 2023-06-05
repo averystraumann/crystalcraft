@@ -1,6 +1,12 @@
 {
   "type": "forge:add_features",
-  "biomes": "#is_overworld",
+  "biomes" : [
+    "minecraft:jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp"
+  ],
   "features": "crystalcraft:large_deepslate_amethyst_ore_placed",
   "step": "underground_ores"
 }

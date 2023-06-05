@@ -1,12 +1,13 @@
 {
   "type" : "forge:add_spawns",
   "biomes" : [
-    "minecraft:plains",
-    "minecraft:forest",
-    "minecraft:flower_forest",
-    "minecraft:meadow",
-    "minecraft:dripstone_caves",
-    "minecraft:lush_caves"
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:desert"
   ],
   "spawners": {
     "type": "crystalcraft:citrine_cow",

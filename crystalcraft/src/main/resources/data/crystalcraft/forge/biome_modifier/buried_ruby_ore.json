@@ -1,6 +1,14 @@
 {
   "type": "forge:add_features",
-  "biomes": "#is_overworld",
+  "biomes" : [
+    "minecraft:sunflower_plains",
+    "minecraft:plains",
+    "minecraft:forest",
+    "minecraft:flower_forest",
+    "minecraft:birch_forest",
+    "minecraft:dark_forest",
+    "minecraft:meadow"
+  ],
   "features": "crystalcraft:buried_ruby_ore_placed",
   "step": "underground_ores"
 }

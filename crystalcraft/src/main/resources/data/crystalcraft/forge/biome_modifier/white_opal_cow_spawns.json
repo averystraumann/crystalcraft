@@ -1,12 +1,14 @@
 {
   "type" : "forge:add_spawns",
   "biomes" : [
-    "minecraft:plains",
-    "minecraft:forest",
-    "minecraft:flower_forest",
-    "minecraft:meadow",
-    "minecraft:dripstone_caves",
-    "minecraft:lush_caves"
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_slopes",
+    "minecraft:frozen_peaks",
+    "minecraft:snowy_beach",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean"
   ],
   "spawners": {
     "type": "crystalcraft:white_opal_cow",

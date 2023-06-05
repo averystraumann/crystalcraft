@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "crystalcraft:block/deepslate_white_opal_ore"
-  }
-}

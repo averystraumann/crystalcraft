@@ -1,6 +1,15 @@
 {
   "type": "forge:add_features",
-  "biomes": "#is_overworld",
+  "biomes" : [
+    "minecraft:snowy_plains",
+    "minecraft:ice_spikes",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_slopes",
+    "minecraft:frozen_peaks",
+    "minecraft:snowy_beach",
+    "minecraft:frozen_ocean",
+    "minecraft:deep_frozen_ocean"
+  ],
   "features": "crystalcraft:buried_white_opal_ore_placed",
   "step": "underground_ores"
 }
