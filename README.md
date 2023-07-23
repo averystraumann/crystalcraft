@@ -28,8 +28,8 @@ citrine
 amethyst
   - armor gives speed effect 
   - sword gives poison effect to target mob
-  - ore spawns underground in jungles, swamps, and mangrove swamps
-  - cows spawn in jungles, swamps, and mangrove swamps
+  - ore spawns underground in jungles
+  - cows spawn in jungles
   - amethyst milk gives speed effect for about a minute and a half
 
 white opal:
@@ -38,3 +38,12 @@ white opal:
   - ore spawns underground in snowy, frozen, and ice biomes
   - cows spawn in snowy, frozen, and ice biomes
   - white opal milk gives night vision effect for about a minute and a half
+
+peridot:
+  - armor gives luck effect
+  - sword gives weakness effect to target mob
+  - ore spawns underground in swamp and mangrove swamp biomes
+  - cows spawn in swamp and mangrove swamp biomes
+  - white opal milk gives luck effect for about a minute and a half
+
+
