@@ -46,4 +46,4 @@ peridot:
   - cows spawn in swamp and mangrove swamp biomes
   - white opal milk gives luck effect for about a minute and a half
 
-
+https://media.forgecdn.net/attachments/699/533/screenshot-2023-07-22-212303.png
