@@ -46,6 +46,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.WHITE_OPAL.get(),
                 RecipeCategory.MISC, ModBlocks.WHITE_OPAL_BLOCK.get());
 
+        nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.PERIDOT.get(),
+                RecipeCategory.MISC, ModBlocks.PERIDOT_BLOCK.get());
+
+
         ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.RUBY_HELMET.get())
                  .define('#', ModItems.RUBY.get())
                  .pattern("###")
@@ -203,6 +207,38 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern("# #")
                 .unlockedBy("has_white_opal", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.WHITE_OPAL.get()).build()))
+                .save(consumer);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PERIDOT_HELMET.get())
+                .define('#', ModItems.PERIDOT.get())
+                .pattern("###")
+                .pattern("# #")
+                .unlockedBy("has_peridot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.PERIDOT.get()).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PERIDOT_CHESTPLATE.get())
+                .define('#', ModItems.PERIDOT.get())
+                .pattern("# #")
+                .pattern("###")
+                .pattern("###")
+                .unlockedBy("has_peridot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.PERIDOT.get()).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PERIDOT_LEGGINGS.get())
+                .define('#', ModItems.PERIDOT.get())
+                .pattern("###")
+                .pattern("# #")
+                .pattern("# #")
+                .unlockedBy("has_peridot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.PERIDOT.get()).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.COMBAT, ModItems.PERIDOT_BOOTS.get())
+                .define('#', ModItems.PERIDOT.get())
+                .pattern("# #")
+                .pattern("# #")
+                .unlockedBy("has_peridot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.PERIDOT.get()).build()))
                 .save(consumer);
 
 
@@ -437,6 +473,53 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .pattern(" | ")
                 .pattern(" | ")
                 .unlockedBy("has_white_opal", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.WHITE_OPAL.get()).build()))
+                .save(consumer);
+
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.PERIDOT_SWORD.get())
+                .define('#', ModItems.PERIDOT.get())
+                .define('|', Items.STICK)
+                .pattern(" # ")
+                .pattern(" # ")
+                .pattern(" | ")
+                .unlockedBy("has_peridot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.PERIDOT.get()).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.PERIDOT_PICKAXE.get())
+                .define('#', ModItems.PERIDOT.get())
+                .define('|', Items.STICK)
+                .pattern("###")
+                .pattern(" | ")
+                .pattern(" | ")
+                .unlockedBy("has_peridot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.PERIDOT.get()).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.PERIDOT_AXE.get())
+                .define('#', ModItems.PERIDOT.get())
+                .define('|', Items.STICK)
+                .pattern("## ")
+                .pattern("#| ")
+                .pattern(" | ")
+                .unlockedBy("has_peridot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.PERIDOT.get()).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.PERIDOT_SHOVEL.get())
+                .define('#', ModItems.PERIDOT.get())
+                .define('|', Items.STICK)
+                .pattern(" # ")
+                .pattern(" | ")
+                .pattern(" | ")
+                .unlockedBy("has_peridot", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModItems.PERIDOT.get()).build()))
+                .save(consumer);
+        ShapedRecipeBuilder.shaped(RecipeCategory.TOOLS, ModItems.PERIDOT_HOE.get())
+                .define('#', ModItems.PERIDOT.get())
+                .define('|', Items.STICK)
+                .pattern("## ")
+                .pattern(" | ")
+                .pattern(" | ")
+                .unlockedBy("has_peridot", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModItems.WHITE_OPAL.get()).build()))
                 .save(consumer);
     }

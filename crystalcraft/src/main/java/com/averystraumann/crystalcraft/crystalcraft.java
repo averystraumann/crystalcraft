@@ -46,6 +46,7 @@ public class crystalcraft
             event.accept(ModItems.AMETHYST);
             event.accept(ModItems.CITRINE);
             event.accept(ModItems.WHITE_OPAL);
+            event.accept(ModItems.PERIDOT);
             }
 
         if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
@@ -54,11 +55,13 @@ public class crystalcraft
             event.accept(ModBlocks.CITRINE_ORE);
             event.accept(ModBlocks.AMETHYST_ORE);
             event.accept(ModBlocks.WHITE_OPAL_ORE);
+            event.accept(ModBlocks.PERIDOT_ORE);
             event.accept(ModBlocks.DEEPSLATE_RUBY_ORE);
             event.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
             event.accept(ModBlocks.DEEPSLATE_CITRINE_ORE);
             event.accept(ModBlocks.DEEPSLATE_AMETHYST_ORE);
             event.accept(ModBlocks.DEEPSLATE_WHITE_OPAL_ORE);
+            event.accept(ModBlocks.DEEPSLATE_PERIDOT_ORE);
         }
         if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.RUBY_BLOCK);
@@ -66,6 +69,7 @@ public class crystalcraft
             event.accept(ModBlocks.CITRINE_BLOCK);
             event.accept(ModBlocks.AMETHYST_BLOCK);
             event.accept(ModBlocks.WHITE_OPAL_BLOCK);
+            event.accept(ModBlocks.PERIDOT_BLOCK);
         }
 
         if (event.getTab() == CreativeModeTabs.COMBAT) {
@@ -94,6 +98,11 @@ public class crystalcraft
             event.accept(ModItems.AMETHYST_SWORD);
             event.accept(ModItems.CITRINE_SWORD);
             event.accept(ModItems.WHITE_OPAL_SWORD);
+            event.accept(ModItems.PERIDOT_HELMET);
+            event.accept(ModItems.PERIDOT_CHESTPLATE);
+            event.accept(ModItems.PERIDOT_LEGGINGS);
+            event.accept(ModItems.PERIDOT_BOOTS);
+            event.accept(ModItems.PERIDOT_SWORD);
         }
 
         if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -117,6 +126,10 @@ public class crystalcraft
             event.accept(ModItems.WHITE_OPAL_AXE);
             event.accept(ModItems.WHITE_OPAL_SHOVEL);
             event.accept(ModItems.WHITE_OPAL_HOE);
+            event.accept(ModItems.PERIDOT_PICKAXE);
+            event.accept(ModItems.PERIDOT_AXE);
+            event.accept(ModItems.PERIDOT_SHOVEL);
+            event.accept(ModItems.PERIDOT_HOE);
         }
 
         if (event.getTab() == CreativeModeTabs.FOOD_AND_DRINKS) {
@@ -125,6 +138,7 @@ public class crystalcraft
             event.accept(ModItems.AMETHYST_MILK);
             event.accept(ModItems.CITRINE_MILK);
             event.accept(ModItems.WHITE_OPAL_MILK);
+            event.accept(ModItems.PERIDOT_MILK);
         }
 
         if (event.getTab() == CreativeModeTabs.SPAWN_EGGS) {
@@ -133,6 +147,7 @@ public class crystalcraft
             event.accept(ModItems.SAPPHIRE_COW_SPAWN_EGG);
             event.accept(ModItems.CITRINE_COW_SPAWN_EGG);
             event.accept(ModItems.WHITE_OPAL_COW_SPAWN_EGG);
+            event.accept(ModItems.PERIDOT_COW_SPAWN_EGG);
         }
 
     }

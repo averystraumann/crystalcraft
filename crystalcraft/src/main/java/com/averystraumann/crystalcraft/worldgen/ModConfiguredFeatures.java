@@ -52,6 +52,13 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?,?>> LARGE_DEEPSLATE_WHITE_OPAL_ORE_KEY = registerKey("large_deepslate_white_opal_ore");
     public static final ResourceKey<ConfiguredFeature<?,?>> BURIED_DEEPSLATE_WHITE_OPAL_ORE_KEY = registerKey("buried_deepslate_white_opal_ore");
 
+    public static final ResourceKey<ConfiguredFeature<?,?>> PERIDOT_ORE_KEY = registerKey("peridot_ore");
+    public static final ResourceKey<ConfiguredFeature<?,?>> LARGE_PERIDOT_ORE_KEY = registerKey("large_peridot_ore");
+    public static final ResourceKey<ConfiguredFeature<?,?>> BURIED_PERIDOT_ORE_KEY = registerKey("buried_peridot_ore");
+    public static final ResourceKey<ConfiguredFeature<?,?>> DEEPSLATE_PERIDOT_ORE_KEY = registerKey("deepslate_peridot_ore");
+    public static final ResourceKey<ConfiguredFeature<?,?>> LARGE_DEEPSLATE_PERIDOT_ORE_KEY = registerKey("large_deepslate_peridot_ore");
+    public static final ResourceKey<ConfiguredFeature<?,?>> BURIED_DEEPSLATE_PERIDOT_ORE_KEY = registerKey("buried_deepslate_peridot_ore");
+
     public static void bootstrap(BootstapContext<ConfiguredFeature<?,?>> context) {
         RuleTest stoneReplaceables = new TagMatchTest(BlockTags.STONE_ORE_REPLACEABLES); //know which blocks we can replace w custom ores
         RuleTest deepslateReplaceables = new TagMatchTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
@@ -70,6 +77,9 @@ public class ModConfiguredFeatures {
 
         List<OreConfiguration.TargetBlockState> whiteopalOres = List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.WHITE_OPAL_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_WHITE_OPAL_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> peridotOres = List.of(OreConfiguration.target(stoneReplaceables, ModBlocks.PERIDOT_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_PERIDOT_ORE.get().defaultBlockState()));
 
         register(context, RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 3, 0.6f));
         register(context, LARGE_RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(rubyOres, 8, 0.7f));
@@ -105,6 +115,13 @@ public class ModConfiguredFeatures {
         register(context, DEEPSLATE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 3, 0.6f));
         register(context, LARGE_DEEPSLATE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 8, 0.7f));
         register(context, BURIED_DEEPSLATE_WHITE_OPAL_ORE_KEY, Feature.ORE, new OreConfiguration(whiteopalOres, 5, 1.0f));
+
+        register(context, PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(peridotOres, 3, 0.6f));
+        register(context, LARGE_PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(peridotOres, 8, 0.7f));
+        register(context, BURIED_PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(peridotOres, 5, 1.0f));
+        register(context, DEEPSLATE_PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(peridotOres, 3, 0.6f));
+        register(context, LARGE_DEEPSLATE_PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(peridotOres, 8, 0.7f));
+        register(context, BURIED_DEEPSLATE_PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(peridotOres, 5, 1.0f));
     }
 
     public static ResourceKey<ConfiguredFeature<?, ?>> registerKey(String name) {

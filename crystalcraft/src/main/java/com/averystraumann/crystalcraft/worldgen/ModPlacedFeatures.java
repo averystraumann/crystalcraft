@@ -52,6 +52,13 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> LARGE_DEEPSLATE_WHITE_OPAL_ORE_PLACED_KEY = createKey("large_deepslate_white_opal_ore_placed");
     public static final ResourceKey<PlacedFeature> BURIED_DEEPSLATE_WHITE_OPAL_ORE_PLACED_KEY = createKey("buried_deepslate_white_opal_ore_placed");
 
+    public static final ResourceKey<PlacedFeature> PERIDOT_ORE_PLACED_KEY = createKey("peridot_ore_placed");
+    public static final ResourceKey<PlacedFeature> LARGE_PERIDOT_ORE_PLACED_KEY = createKey("large_peridot_ore_placed");
+    public static final ResourceKey<PlacedFeature> BURIED_PERIDOT_ORE_PLACED_KEY = createKey("buried_peridot_ore_placed");
+    public static final ResourceKey<PlacedFeature> DEEPSLATE_PERIDOT_ORE_PLACED_KEY = createKey("deepslate_peridot_ore_placed");
+    public static final ResourceKey<PlacedFeature> LARGE_DEEPSLATE_PERIDOT_ORE_PLACED_KEY = createKey("large_deepslate_peridot_ore_placed");
+    public static final ResourceKey<PlacedFeature> BURIED_DEEPSLATE_PERIDOT_ORE_PLACED_KEY = createKey("buried_deepslate_peridot_ore_placed");
+
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
         HolderGetter<ConfiguredFeature<?, ?>> configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE); //allows us to also reference configured features
@@ -119,6 +126,19 @@ public class ModPlacedFeatures {
         register(context, LARGE_DEEPSLATE_WHITE_OPAL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LARGE_DEEPSLATE_WHITE_OPAL_ORE_KEY),
                 ModOrePlacement.rareOrePlacement(9, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
         register(context, BURIED_DEEPSLATE_WHITE_OPAL_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BURIED_DEEPSLATE_WHITE_OPAL_ORE_KEY),
+                ModOrePlacement.rareOrePlacement(4, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+
+        register(context, PERIDOT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.PERIDOT_ORE_KEY),
+                ModOrePlacement.commonOrePlacement(7, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+        register(context, LARGE_PERIDOT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LARGE_PERIDOT_ORE_KEY),
+                ModOrePlacement.rareOrePlacement(9, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+        register(context, BURIED_PERIDOT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BURIED_PERIDOT_ORE_KEY),
+                ModOrePlacement.rareOrePlacement(4, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+        register(context, DEEPSLATE_PERIDOT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.DEEPSLATE_PERIDOT_ORE_KEY),
+                ModOrePlacement.commonOrePlacement(7, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+        register(context, LARGE_DEEPSLATE_PERIDOT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LARGE_DEEPSLATE_PERIDOT_ORE_KEY),
+                ModOrePlacement.rareOrePlacement(9, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
+        register(context, BURIED_DEEPSLATE_PERIDOT_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.BURIED_DEEPSLATE_PERIDOT_ORE_KEY),
                 ModOrePlacement.rareOrePlacement(4, HeightRangePlacement.triangle(VerticalAnchor.aboveBottom(-80), VerticalAnchor.aboveBottom(80))));
     }
 

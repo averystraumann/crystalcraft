@@ -31,7 +31,9 @@ public class ModEntities {
     public static final RegistryObject<EntityType<WhiteOpalCowEntity>> WHITE_OPAL_COW = ENTITY_TYPES.register("white_opal_cow", () ->
             EntityType.Builder.of(WhiteOpalCowEntity::new, MobCategory.CREATURE)
                     .sized(1.5f,1.74f).build(new ResourceLocation(crystalcraft.MODID, "white_opal_cow").toString()));
-
+    public static final RegistryObject<EntityType<PeridotCowEntity>> PERIDOT_COW = ENTITY_TYPES.register("peridot_cow", () ->
+            EntityType.Builder.of(PeridotCowEntity::new, MobCategory.CREATURE)
+                    .sized(1.5f,1.74f).build(new ResourceLocation(crystalcraft.MODID, "peridot_cow").toString()));
 
 
 

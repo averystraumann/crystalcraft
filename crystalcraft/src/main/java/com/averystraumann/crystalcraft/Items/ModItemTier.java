@@ -22,6 +22,9 @@ public enum ModItemTier implements Tier {
     }),
     WHITE_OPAL(3, 1561, 8.0F, 3.0F, 10, () -> {
         return Ingredient.of(ModItems.WHITE_OPAL.get());
+    }),
+    PERIDOT(3, 1561, 8.0F, 3.0F, 10, () -> {
+        return Ingredient.of(ModItems.PERIDOT.get());
     }),;
 
     private final int level;

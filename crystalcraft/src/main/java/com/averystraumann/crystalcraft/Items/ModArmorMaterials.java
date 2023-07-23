@@ -26,6 +26,9 @@ public enum ModArmorMaterials implements ArmorMaterial {
     }),
     WHITE_OPAL("white_opal", 5, new int[]{3, 6, 8, 3}, 30, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5F, 0.0F, () -> {
         return Ingredient.of(ModItems.WHITE_OPAL.get());
+    }),
+    PERIDOT("peridot", 5, new int[]{3, 6, 8, 3}, 30, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.5F, 0.0F, () -> {
+        return Ingredient.of(ModItems.PERIDOT.get());
     });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};

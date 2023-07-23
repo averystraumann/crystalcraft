@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes" : [
+
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp"
+  ],
+  "features": "crystalcraft:peridot_ore_placed",
+  "step": "underground_ores"
+}

@@ -6,15 +6,18 @@
     "crystalcraft:citrine_ore",
     "crystalcraft:amethyst_ore",
     "crystalcraft:white_opal_ore",
+    "crystalcraft:peridot_ore",
     "crystalcraft:ruby_block",
     "crystalcraft:sapphire_block",
     "crystalcraft:amethyst_block",
     "crystalcraft:citrine_block",
     "crystalcraft:white_opal_block",
+    "crystalcraft:peridot_block",
     "crystalcraft:deepslate_ruby_ore",
     "crystalcraft:deepslate_sapphire_ore",
     "crystalcraft:deepslate_citrine_ore",
     "crystalcraft:deepslate_amethyst_ore",
-    "crystalcraft:deepslate_white_opal_ore"
+    "crystalcraft:deepslate_white_opal_ore",
+    "crystalcraft:deepslate_peridot_ore"
   ]
 }

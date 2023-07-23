@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "crystalcraft:ruby"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#| ",
+    " | "
+  ],
+  "result": {
+    "item": "crystalcraft:ruby_axe"
+  },
+  "show_notification": true
+}

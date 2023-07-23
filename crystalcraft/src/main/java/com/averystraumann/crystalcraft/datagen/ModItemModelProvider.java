@@ -22,6 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.AMETHYST);
         simpleItem(ModItems.SAPPHIRE);
         simpleItem(ModItems.WHITE_OPAL);
+        simpleItem(ModItems.PERIDOT);
         simpleItem(ModItems.RUBY_HELMET);
         simpleItem(ModItems.RUBY_CHESTPLATE);
         simpleItem(ModItems.RUBY_LEGGINGS);
@@ -42,6 +43,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WHITE_OPAL_CHESTPLATE);
         simpleItem(ModItems.WHITE_OPAL_LEGGINGS);
         simpleItem(ModItems.WHITE_OPAL_BOOTS);
+        simpleItem(ModItems.PERIDOT_HELMET);
+        simpleItem(ModItems.PERIDOT_CHESTPLATE);
+        simpleItem(ModItems.PERIDOT_LEGGINGS);
+        simpleItem(ModItems.PERIDOT_BOOTS);
         simpleItem(ModItems.RUBY_SWORD);
         simpleItem(ModItems.RUBY_PICKAXE);
         simpleItem(ModItems.RUBY_AXE);
@@ -67,11 +72,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.WHITE_OPAL_AXE);
         simpleItem(ModItems.WHITE_OPAL_SHOVEL);
         simpleItem(ModItems.WHITE_OPAL_HOE);
+        simpleItem(ModItems.PERIDOT_SWORD);
+        simpleItem(ModItems.PERIDOT_PICKAXE);
+        simpleItem(ModItems.PERIDOT_AXE);
+        simpleItem(ModItems.PERIDOT_SHOVEL);
+        simpleItem(ModItems.PERIDOT_HOE);
         simpleItem(ModItems.RUBY_MILK);
         simpleItem(ModItems.AMETHYST_MILK);
         simpleItem(ModItems.SAPPHIRE_MILK);
         simpleItem(ModItems.CITRINE_MILK);
         simpleItem(ModItems.WHITE_OPAL_MILK);
+        simpleItem(ModItems.PERIDOT_MILK);
     }
 
 

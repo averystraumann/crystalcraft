@@ -40,6 +40,9 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         add(ModBlocks.WHITE_OPAL_ORE.get(), (block) -> createOreDrop(ModBlocks.WHITE_OPAL_ORE.get(), ModItems.WHITE_OPAL.get()));
         add(ModBlocks.DEEPSLATE_WHITE_OPAL_ORE.get(), (block) -> createOreDrop(ModBlocks.DEEPSLATE_WHITE_OPAL_ORE.get(), ModItems.WHITE_OPAL.get()));
 
+        dropSelf(ModBlocks.PERIDOT_BLOCK.get());
+        add(ModBlocks.PERIDOT_ORE.get(), (block) -> createOreDrop(ModBlocks.PERIDOT_ORE.get(), ModItems.PERIDOT.get()));
+        add(ModBlocks.DEEPSLATE_PERIDOT_ORE.get(), (block) -> createOreDrop(ModBlocks.DEEPSLATE_PERIDOT_ORE.get(), ModItems.PERIDOT.get()));
 
 
 

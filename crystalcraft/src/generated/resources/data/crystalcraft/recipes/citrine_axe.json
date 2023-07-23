@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "crystalcraft:citrine"
+    },
+    "|": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#| ",
+    " | "
+  ],
+  "result": {
+    "item": "crystalcraft:citrine_axe"
+  },
+  "show_notification": true
+}

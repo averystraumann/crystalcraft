@@ -18,6 +18,7 @@ public class ModEvents {
         event.put(ModEntities.AMETHYST_COW.get(), AmethystCowEntity.getAmethystCowAttributes().build());
         event.put(ModEntities.CITRINE_COW.get(), CitrineCowEntity.getCitrineCowAttributes().build());
         event.put(ModEntities.WHITE_OPAL_COW.get(), WhiteOpalCowEntity.getWhiteOpalCowAttributes().build());
+        event.put(ModEntities.PERIDOT_COW.get(), PeridotCowEntity.getPeridotCowAttributes().build());
     }
     @SubscribeEvent
     public static void entityRenderers(EntityRenderersEvent.RegisterRenderers event) {
@@ -26,7 +27,7 @@ public class ModEvents {
         event.registerEntityRenderer(ModEntities.AMETHYST_COW.get(), AmethystCowRenderer::new);
         event.registerEntityRenderer(ModEntities.CITRINE_COW.get(), CitrineCowRenderer::new);
         event.registerEntityRenderer(ModEntities.WHITE_OPAL_COW.get(), WhiteOpalCowRenderer::new);
-
+        event.registerEntityRenderer(ModEntities.PERIDOT_COW.get(), PeridotCowRenderer::new);
     }
     @SubscribeEvent
     public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
@@ -35,6 +36,8 @@ public class ModEvents {
         event.registerLayerDefinition(AmethystCowModel.LAYER_LOCATION, AmethystCowModel::createBodyLayer);
         event.registerLayerDefinition(CitrineCowModel.LAYER_LOCATION, CitrineCowModel::createBodyLayer);
         event.registerLayerDefinition(WhiteOpalCowModel.LAYER_LOCATION, WhiteOpalCowModel::createBodyLayer);
+        event.registerLayerDefinition(PeridotCowModel.LAYER_LOCATION, PeridotCowModel::createBodyLayer);
+
 
     }
 

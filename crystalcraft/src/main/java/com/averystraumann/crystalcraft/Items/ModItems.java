@@ -26,7 +26,8 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> WHITE_OPAL = ITEMS.register("white_opal",
             () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> PERIDOT = ITEMS.register("peridot",
+            () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RUBY_HELMET = ITEMS.register("ruby_helmet",
             () -> new RubyArmorItem(ModArmorMaterials.RUBY, ArmorItem.Type.HELMET, new Item.Properties()));
@@ -73,6 +74,14 @@ public class ModItems {
     public static final RegistryObject<Item> WHITE_OPAL_BOOTS = ITEMS.register("white_opal_boots",
             () -> new WhiteOpalArmorItem(ModArmorMaterials.WHITE_OPAL, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> PERIDOT_HELMET = ITEMS.register("peridot_helmet",
+            () -> new PeridotArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> PERIDOT_CHESTPLATE = ITEMS.register("peridot_chestplate",
+            () -> new PeridotArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> PERIDOT_LEGGINGS = ITEMS.register("peridot_leggings",
+            () -> new PeridotArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> PERIDOT_BOOTS = ITEMS.register("peridot_boots",
+            () -> new PeridotArmorItem(ModArmorMaterials.PERIDOT, ArmorItem.Type.BOOTS, new Item.Properties()));
 
 
     public static final RegistryObject<Item> RUBY_SWORD = ITEMS.register("ruby_sword",
@@ -131,6 +140,16 @@ public class ModItems {
     public static final RegistryObject<Item> WHITE_OPAL_HOE = ITEMS.register("white_opal_hoe",
             () -> new HoeItem(ModItemTier.WHITE_OPAL, -3, 0.0F, new Item.Properties()));
 
+    public static final RegistryObject<Item> PERIDOT_SWORD = ITEMS.register("peridot_sword",
+            () -> new PeridotSwordItem(ModItemTier.PERIDOT, 3, -2.4F, new Item.Properties()));
+    public static final RegistryObject<Item> PERIDOT_SHOVEL = ITEMS.register("peridot_shovel",
+            () -> new ShovelItem(ModItemTier.PERIDOT, 1.5F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> PERIDOT_PICKAXE = ITEMS.register("peridot_pickaxe",
+            () -> new PickaxeItem(ModItemTier.PERIDOT, 1, -2.8F, new Item.Properties()));
+    public static final RegistryObject<Item> PERIDOT_AXE = ITEMS.register("peridot_axe",
+            () -> new AxeItem(ModItemTier.PERIDOT, 5.0F, -3.0F, new Item.Properties()));
+    public static final RegistryObject<Item> PERIDOT_HOE = ITEMS.register("peridot_hoe",
+            () -> new HoeItem(ModItemTier.PERIDOT, -3, 0.0F, new Item.Properties()));
 
     public static final RegistryObject<Item> RUBY_MILK = ITEMS.register("ruby_milk",
             () -> new RubyMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
@@ -142,7 +161,8 @@ public class ModItems {
             () -> new CitrineMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
     public static final RegistryObject<Item> WHITE_OPAL_MILK = ITEMS.register("white_opal_milk",
             () -> new WhiteOpalMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
-
+    public static final RegistryObject<Item> PERIDOT_MILK = ITEMS.register("peridot_milk",
+            () -> new PeridotMilkItem(new Item.Properties().craftRemainder(BUCKET).stacksTo(1)));
 
     public static final RegistryObject<ForgeSpawnEggItem> RUBY_COW_SPAWN_EGG = ITEMS.register("ruby_cow_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.RUBY_COW, 0xc40642, 0xffa3b1, new Item.Properties().stacksTo(16)));
@@ -154,7 +174,8 @@ public class ModItems {
             () -> new ForgeSpawnEggItem(ModEntities.CITRINE_COW, 0xff7c24, 0xffc107, new Item.Properties().stacksTo(16)));
     public static final RegistryObject<ForgeSpawnEggItem> WHITE_OPAL_COW_SPAWN_EGG = ITEMS.register("white_opal_cow_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.WHITE_OPAL_COW, 0xdbf7cf, 0xffe0fd, new Item.Properties().stacksTo(16)));
-
+    public static final RegistryObject<ForgeSpawnEggItem> PERIDOT_COW_SPAWN_EGG = ITEMS.register("peridot_cow_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.PERIDOT_COW, 0x29815a, 0xa4e662, new Item.Properties().stacksTo(16)));
 
 
     public static void register(IEventBus eventBus) {

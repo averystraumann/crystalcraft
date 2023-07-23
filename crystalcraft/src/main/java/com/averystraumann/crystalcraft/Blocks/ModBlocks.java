@@ -51,6 +51,12 @@ public class ModBlocks {
     public static final RegistryObject<Block> WHITE_OPAL_ORE = registerBlock("white_opal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
 
+    public static final RegistryObject<Block> PERIDOT_ORE = registerBlock("peridot_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f).requiresCorrectToolForDrops(), UniformInt.of(3,6)));
+
+
+
+
     public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(3,6)));
 
@@ -66,6 +72,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_WHITE_OPAL_ORE = registerBlock("deepslate_white_opal_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(3,6)));
 
+    public static final RegistryObject<Block> DEEPSLATE_PERIDOT_ORE = registerBlock("deepslate_peridot_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3.0f).requiresCorrectToolForDrops().sound(SoundType.DEEPSLATE), UniformInt.of(3,6)));
+
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f).requiresCorrectToolForDrops()));
 
@@ -79,6 +88,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> WHITE_OPAL_BLOCK = registerBlock("white_opal_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> PERIDOT_BLOCK = registerBlock("peridot_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3.0f).requiresCorrectToolForDrops()));
 
 }
