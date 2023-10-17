@@ -44,7 +44,7 @@ peridot:
   - sword gives weakness effect to target mob
   - ore spawns underground in swamp and mangrove swamp biomes
   - cows spawn in swamp and mangrove swamp biomes
-  - white opal milk gives luck effect for about a minute and a half
+  - peridot milk gives luck effect for about a minute and a half
 
 <img width="856" alt="image" src="https://github.com/averystraumann/crystalcraft/assets/101287035/77f6846d-9af9-4732-b694-3408f951c83b">
 
